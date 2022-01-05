@@ -7,6 +7,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: #444;
+  font-size: 18px;
 }
 
 .container {
@@ -59,7 +60,7 @@ body {
 
 .header-text {
   letter-spacing: 0.8px;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
   font-size: 20px;
 }
 
@@ -140,6 +141,7 @@ body {
 }
 
 .develop-comminity__text{
+    line-height: 1.7;
     margin-bottom: 20px;
 }
 
