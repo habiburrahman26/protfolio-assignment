@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  width: 1300px;
+  width: 1200px;
   margin: 10px auto;
 }
 
@@ -131,26 +131,43 @@ body {
   background-color: #ffe8cc;
 }
 
-.section-develop-comminity {
-    gap: 60px;
-    align-items: center;
+
+.develop-comminity-container {
+  gap: 60px;
+  align-items: center;
+  position: relative;
+}
+
+.develop-comminity__img-box::before {
+  content: '';
+  background: url('../images/shapes/shape-1.png') no-repeat center center/cover;
+  position: absolute;
+  top: 60px;
+  left: -90px;
+  width: 250px;
+  height: 250px;
+  z-index: -1000;
 }
 
 .develop-comminity__img-box {
   width: 50%;
 }
 
-.develop-comminity__text{
-    line-height: 1.7;
-    margin-bottom: 20px;
+.develop-comminity__text {
+  line-height: 1.7;
+  margin-bottom: 20px;
 }
 
-.develop-comminity__img{
-    height: 450px;
+.develop-comminity__img {
+  height: 450px;
 }
 
-.develop-comminity__heading{
-    font-size: 34px;
-    font-weight: 700;
-    margin-bottom: 20px;
+.develop-comminity__heading {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.block-span {
+  display: block;
 }
