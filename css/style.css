@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #444;
+}
+
+.container {
+  width: 1300px;
+  margin: 10px auto;
+}
+
+.heading-primary {
+  font-size: 60px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.heading-secondary {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.heading-tertiary {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.flex {
+  display: flex;
+}
+
+.header {
+  gap: 60px;
+  align-items: center;
+  height: 100vh;
+}
+
+.header-text-box {
+  width: 50%;
+}
+
+#left-border {
+  border-left: 4px solid tomato;
+}
+.owner-name {
+  display: block;
+  margin-left: 0;
+}
+
+.color-yellow {
+  color: #eea04d;
+}
+
+.header-text {
+  letter-spacing: 0.8px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.header-img-box {
+  width: 50%;
+  margin-top: -130px;
+  text-align: center;
+}
+
+.header-img {
+  height: 600px;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 40px;
+  font-size: 18px;
+  /* text-transform: uppercase; */
+  font-weight: 400;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn-header {
+  color: #f7f7f7;
+  background-color: #ff6b6b;
+  margin-bottom: 40px;
+}
+
+.btn-header:hover {
+  background-color: #fa5252;
+}
+
+.section-mission {
+  margin-bottom: 96px;
+}
+
+.mission-img {
+  height: 120px;
+}
+
+.mission-content {
+  gap: 40px;
+}
+
+.mission,
+.vision,
+.goal {
+  border-radius: 15px;
+  padding: 30px 20px 40px 30px;
+}
+
+.mission {
+  background-color: #e7f5ff;
+}
+
+.vision {
+  background-color: #ffdeeb;
+}
+
+.goal {
+  background-color: #ffe8cc;
+}
+
+.section-develop-comminity {
+    gap: 60px;
+    align-items: center;
+}
+
+.develop-comminity__img-box {
+  width: 50%;
+}
+
+.develop-comminity__text{
+    margin-bottom: 20px;
+}
+
+.develop-comminity__img{
+    height: 450px;
+}
+
+.develop-comminity__heading{
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
