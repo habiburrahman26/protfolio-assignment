@@ -17,9 +17,10 @@ body {
 
 .heading-primary {
   font-size: 60px;
-  margin-left: 10px;
-  margin-bottom: 20px;
   line-height: 1.2;
+  letter-spacing: .8px;
+  margin-left: 10px;
+  margin-bottom: 25px;
 }
 
 .heading-secondary {
@@ -65,7 +66,8 @@ body {
 }
 
 .header-text {
-  letter-spacing: 0.6px;
+  letter-spacing: 0.4px;
+  line-height: 1.6;
   margin-bottom: 22px;
   font-size: 20px;
 }
