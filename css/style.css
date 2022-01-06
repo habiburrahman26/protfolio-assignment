@@ -92,7 +92,7 @@ body {
 }
 
 .btn-header {
-  color: #f7f7f7;
+  color: #fff;
   background-color: #ff6b6b;
   margin-bottom: 40px;
 }
@@ -262,7 +262,7 @@ body {
 
 .btn-form {
   border: none;
-  background-color: #fa5252;
+  background-color: #ff6b6b;
   color: #fff;
 }
 
