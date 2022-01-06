@@ -10,15 +10,23 @@ body {
   font-size: 18px;
 }
 
+/************************** */
+/* GENERAL */
+/************************** */
+
 .container {
   width: 1200px;
-  margin: 10px auto;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
 }
 
 .heading-primary {
   font-size: 60px;
   line-height: 1.2;
-  letter-spacing: .8px;
+  letter-spacing: 0.8px;
   margin-left: 10px;
   margin-bottom: 25px;
 }
@@ -33,9 +41,38 @@ body {
   font-size: 24px;
   margin-bottom: 20px;
 }
-.flex {
-  display: flex;
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 6px;
+  transition: all 0.2s;
 }
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn-header {
+  color: #fff;
+  background-color: #fa5252;
+  margin-bottom: 40px;
+}
+
+.btn:hover,
+.btn-header:hover {
+  background-color:#f03e3e;
+  cursor: pointer;
+}
+
+/************************** */
+/* HEADER */
+/************************** */
 
 .header {
   gap: 60px;
@@ -82,34 +119,9 @@ body {
   height: 600px;
 }
 
-.btn,
-.btn:link,
-.btn:visited {
-  display: inline-block;
-  text-decoration: none;
-  padding: 10px 40px;
-  font-size: 18px;
-  /* text-transform: uppercase; */
-  font-weight: 400;
-  border-radius: 6px;
-  transition: all 0.2s;
-}
-
-.btn:active {
-  transform: translateY(1px);
-}
-
-.btn-header {
-  color: #fff;
-  background-color: #ff6b6b;
-  margin-bottom: 40px;
-}
-
-.btn:hover,
-.btn-header:hover {
-  background-color: #fa5252;
-  cursor: pointer;
-}
+/************************** */
+/* MISSION*/
+/************************** */
 
 .section-mission {
   margin-bottom: 96px;
@@ -142,6 +154,10 @@ body {
 .goal {
   background-color: #ffe8cc;
 }
+
+/************************** */
+/* DEVELOPER & COMMUNITY */
+/************************** */
 
 .section-develop-comminity {
   margin-bottom: 96px;
@@ -202,28 +218,9 @@ body {
   display: block;
 }
 
-.footer {
-  background-color: rgb(12, 14, 22);
-  text-align: center;
-  padding: 40px 20px;
-  color: #fff;
-}
-
-.footer-large-text {
-  font-size: 34px;
-  font-family: 'Lobster', cursive;
-  margin-bottom: 20px;
-}
-
-.footer-large-text span {
-  color: salmon;
-}
-
-.footer-small-text {
-  font-size: 14px;
-  color: #eee;
-  font-weight: 100;
-}
+/************************** */
+/* CONTACT */
+/************************** */
 
 .section-contact {
   margin-bottom: 140px;
@@ -278,4 +275,31 @@ body {
   font-size: 14px;
   margin-bottom: 20px;
   margin-top: 8px;
+}
+
+/************************** */
+/* FOOTER */
+/************************** */
+
+.footer {
+  background-color: rgb(12, 14, 22);
+  text-align: center;
+  padding: 40px 20px;
+  color: #fff;
+}
+
+.footer-large-text {
+  font-size: 34px;
+  font-family: 'Lobster', cursive;
+  margin-bottom: 20px;
+}
+
+.footer-large-text span {
+  color: salmon;
+}
+
+.footer-small-text {
+  font-size: 14px;
+  color: #eee;
+  font-weight: 100;
 }
